@@ -1,0 +1,1068 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\lang french
+Ouvrages
+\lang english
+ et Aménagements Hydrauliques
+\end_layout
+
+\begin_layout Title
+Exercice 1 - Analyse de données de débits et régime hydraulique
+\end_layout
+
+\begin_layout Date
+Héloïse Fuselier
+\end_layout
+
+\begin_layout Date
+9 Mars 2017
+\end_layout
+
+\begin_layout Part*
+
+\lang french
+Analyse
+\lang english
+ hydrologique
+\end_layout
+
+\begin_layout Section
+Courbes des débits classés et moyennes de débits
+\end_layout
+
+\begin_layout Subsection
+Moyennes mensuelles et moyenne annuelle
+\end_layout
+
+\begin_layout Standard
+Nous avons cherché ici à estimer les débits que nous aurons à l'emplacement
+ du projet A pour l'année 2014, en ne connaissant que les données de débits
+ obtenues à a station de mesure B de l'OFEV.
+ Nous avions également comme autres données les surfaces des différents
+ bassins versants pour les emplacement A (Ea = 208 km
+\begin_inset Formula $^{2}$
+\end_inset
+
+) et B (Eb = 183 km
+\begin_inset Formula $^{2}$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Nous avons ici admis que les débits moyens étaient proportionnels à la surface
+ du bassin versant et A partir de ces informations, nous avons pû estimer
+ les débits à hauteur du projet A de la manière suivante : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Qa=\left(\frac{Eb}{Ea}\right).Qb\label{eq:debitsmoyens}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nous alors obtenus les valeurs presenté en fig 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:Moyennes-annuelle"
+
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/heloisefuselier/Desktop/Capture d’écran 2017-03-09 à 18.29.14.png
+	scale 65
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Moyennes annuelle et moyennes mensuelle pour 2014
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Moyennes-annuelle"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Courbe des débits classés
+\end_layout
+
+\begin_layout Standard
+Nous avons maintenant souhaité réaliser une courbe de débits classés pour
+ l'année 2013 ainsi que pour une période regroupant des données de débits
+ de 1912 à 2013.
+ Pour celà nous devons à nouveau faire une estimation des débits de crues
+ à l'emplacement du projet A.
+ Nous nous sommes donc servis de la relation énonçant que les débits de
+ crues sont eux proportionnels à la surface du bassin versant, toujours
+ en connaissant les valeurs des surfaces des deux bassins versants.
+ Nous avons donc pû estimer ces débits de crues de la manière suivante :
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Qa$
+\end_inset
+
+= 
+\begin_inset Formula $\left(\frac{Eb}{Ea}\right).Qb$
+\end_inset
+
+ pour les débits moyens
+\end_layout
+
+\begin_layout Standard
+La courbe des débits classés est construite de la manière suivante : sur
+ une période de 1 an (365 jours) les débits journaliers observés sont classés
+ par ordres décroissants indépendemment de leur date d'observation.
+ Le plus grand débits sera attribué au jour 1 et le plus petit au jour 365.
+ Pour l'année 2013, nous avons obtenus le tableau et la courbe suivants
+ :
+\end_layout
+
+\begin_layout Itemize
+% tableau + courbe 2013
+\end_layout
+
+\begin_layout Standard
+Pour la période 1912-2013, nous avons obtenus le tableau et la courbe suivante
+ :
+\end_layout
+
+\begin_layout Itemize
+% tableau + courbe 1912-2013
+\end_layout
+
+\begin_layout Standard
+Pour la suite de l'analyse, nous choisissons de travailler avec la courbe
+ des débits classés pour la période 1912-2013.
+ En effet, nous souhaitons estimer de manière la plus représentative du
+ comportement, en termes de débits, de la Brise.
+ Ne se concentrer que sur une année est un risque de sur-dimensionnement
+ ou de sous-dimensionnement de notre projet dans le cas où l'année aurait
+ eu de très faibles débits ou au contraire de grands débits, et donc de
+ tomber sur une année peu représentative du comportement 
+\begin_inset Quotes eld
+\end_inset
+
+habituel
+\begin_inset Quotes erd
+\end_inset
+
+ du cours d'eau.
+ En prenant la courbes des débits classés sur une longue période, on tente
+ de prendre en compte un maximum des 
+\begin_inset Quotes eld
+\end_inset
+
+comprotement
+\begin_inset Quotes erd
+\end_inset
+
+ qu'aurait pu avoir le cours d'eau.
+\end_layout
+
+\begin_layout Section
+Estimation des débits de crues
+\end_layout
+
+\begin_layout Subsection
+Plus grande valeur observée
+\end_layout
+
+\begin_layout Standard
+Pour connaître la plus grande valeur du débit de crues à l'emplacement du
+ projet A, nous cherchons celle mesurée à la station B et nous utilisons
+ la relation suivante pour calculer la valeur de ce débit au projet A :
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Qa$
+\end_inset
+
+= 
+\begin_inset Formula $\left(\frac{Eb}{Ea}\right)^{\frac{2}{3}}.Qb$
+\end_inset
+
+ pour les débits de crues (2)
+\end_layout
+
+\begin_layout Standard
+Grâce au tableau des débits maximaux fournis dans la donnée, nous trouvons
+ que le plus grand débit à été observé à la sation B le 9 août 2007 avec
+ une valeur de 75 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+.
+ A l'aide de la relation explicitée précédement, nous avons donc estimé
+ la plus grand valeur de débit observée à l'emplacement du projet A de 68,9
+ 
+\begin_inset Formula $m^{3}/s.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Analyse statistique
+\end_layout
+
+\begin_layout Standard
+A partir des données des débits maximaux annuels, nous avons voulu caractériser
+ statistiquement les débits par leur fréquence et leur période de retour.
+ Les données sur les débits n'étaient disponibles que pour la période de
+ 1912 à 2013.
+ Cependant nous voulions également ajouter à ce set de données les années
+ 2014, 2015 et 2016.
+ Pour celà, nous avons recherché le débit de pic annuel, observé à la station
+ B, pour chacune de ces trois années.
+ Une fois toutes les données à la sation B récoltées, noues avons estimé
+ les débits maximaux annuel à l'emplacmeemtn du projet A à l'aide de la
+ relation (2).
+ Pour faire notre analyse statistiques sur ces nouvelles données, nous avons
+ suivis la théorie d'analyse statistique suivante :
+\end_layout
+
+\begin_layout Itemize
+Etape 1 : Classer les débits maximaux dans l'ordre croissant et leur attribuer
+ un rang (r) selon leur positions dans la série croissante (le débit le
+ plus faible se vera attribuer la valeur r=1).
+ 
+\end_layout
+
+\begin_layout Itemize
+Etape 2 : Calculer la fréquence empirique de chaque rang selon l'équation
+ de fréquence de Hazen 
+\begin_inset Formula $F\frac{}{}$
+\end_inset
+
+= 
+\begin_inset Formula $\frac{r-0,5}{n}$
+\end_inset
+
+ (3), avec n le nombre total de débits analysés (ici le nombre d'année de
+ la période soit n = 105 pour la période de 1912 à 2016)
+\end_layout
+
+\begin_layout Itemize
+Etape 3 : Calculer la variable réduite de Gumbel u = -ln(-ln(F(r))) (4)
+\end_layout
+
+\begin_layout Itemize
+Etape 4 : Représentation de la variable réduite de Gumbel en fonction des
+ débits de crues
+\end_layout
+
+\begin_layout Itemize
+Etape 5: Faire une estimation linéaire des couples (Débit/Variable réduite)
+ par régression linéaire y = bx+a.
+ Nous avons obtenus les estimations suivantes : b = 26,61 et a = 8,35 (voir
+ Tableau (x))
+\end_layout
+
+\begin_layout Itemize
+Etape 6 : Estimation de débits de pic à partir du temps de retour de l'évenement.
+ On sait que 
+\begin_inset Formula $T\frac{}{}$
+\end_inset
+
+= 
+\begin_inset Formula $\frac{1}{1-F(x_{i})}$
+\end_inset
+
+ (5), d'où 
+\begin_inset Formula $F\frac{}{}$
+\end_inset
+
+= 
+\begin_inset Formula $1-\frac{1}{T}$
+\end_inset
+
+ .
+ A partir de là on peut retrouver la valeur de la variable réduite u par
+ l'équation (4), et ainsi retrouver la valeur de Q
+\begin_inset Formula $_{T}$
+\end_inset
+
+= bx*u + a .
+\end_layout
+
+\begin_layout Itemize
+Etape 7 : Estimer l'erreur type faite sur l'estimation linéaire .
+ L'erreur type est obtenue grâce à la valeur de u pour un certain débit
+ et par l'estimateur b, 
+\begin_inset Formula $\sigma_{est}=\frac{b}{n}\sqrt{1,1086+0,514u+0,6979u^{2}}$
+\end_inset
+
+ .On peut alors estimer une valeur d'erreur haute et basse des débits grâce
+ au facteur de fréquence de la loi normale inverse K que l'on calculera
+ à 95 % (soit 97,5%).
+ On aura alors 
+\begin_inset Formula $Q_{+}$
+\end_inset
+
+ = 
+\begin_inset Formula $Q_{estimé}+K.\sigma_{est}$
+\end_inset
+
+ et 
+\begin_inset Formula $Q_{-}$
+\end_inset
+
+ = 
+\begin_inset Formula $Q_{estimé}-K.\sigma_{est}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+Tous les résulats de ces étapes de calcul sont répertoriées dans le tableau
+ suivant :
+\end_layout
+
+\begin_layout Itemize
+tableau
+\end_layout
+
+\begin_layout Standard
+Et nous avons également résumé ces même résultats dans les graphiques suivants
+ :
+\end_layout
+
+\begin_layout Itemize
+courbes Gumbel + courbe T
+\end_layout
+
+\begin_layout Standard
+Nous avons donc ici réaliser une analyse des débits de crues depuis 1912,
+ nous permettant d'avoir une vue d'ensemble du comportement du cours d'eau
+ exploité par le projet.
+\end_layout
+
+\begin_layout Subsection
+Méthodes empiriques
+\end_layout
+
+\begin_layout Standard
+Plusieurs méthodes empiriques ont été élaborées dans le but d'estimer ou
+ donner un ordre de grandeur des débits de crues que l'on pourrait avoir
+ pour un cours d'eau en fonction de l'environnement dans lequel il évolue.
+ On peut répertorier 3 méthodes principales : celles de Kürsteiner, Hofbauer
+ et Melli.
+ Chaque méthode à développé son équation d'estimation et une estimation
+ du paramètre C selon l'environnement dans lequel évolue le cours d'eau.
+ Nous avons regroupé les 3 méthodes dans le tableau suivant :
+\end_layout
+
+\begin_layout Itemize
+tableau méthodes empiriques
+\end_layout
+
+\begin_layout Standard
+La Brise est un affluent du Rhin se trouvant dans la région de Moutier.
+ L'environnement autour du cours d'eau se compose principalement du massif
+ montagneux du Jura que l'on peut qualifier de montagnes moyennes et l'emplaceme
+nt du projet se trouve dans une région plus basse que la limite de forêt,
+ avec une pente moyenne.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kürsteiner : 
+\begin_inset Formula $HHQ$
+\end_inset
+
+= 
+\begin_inset Formula $C.A^{2/3}$
+\end_inset
+
+ , d'après les informations explicités précédement, nous avons estimé le
+ paramètre C à une valeur de 9.
+ Nous obtenons alors 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+HHQ = 315 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Hofbauer : 
+\begin_inset Formula $HHQ$
+\end_inset
+
+= 
+\begin_inset Formula $C.A^{1/2}$
+\end_inset
+
+ , d'après les informations explicités précédement, nous avons estimé le
+ paramètre C à une valeur de 21.
+ Nous obtenons alors 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+HHQ = 303 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Melli : 
+\begin_inset Formula $HHQ$
+\end_inset
+
+= 
+\begin_inset Formula $C.A^{2/3}$
+\end_inset
+
+ , d'après les informations explicités précédement, nous avons estimé le
+ paramètre C à une valeur de 10.
+ Nous obtenons alors 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+HHQ = 351
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Méthode de Vischer 1980
+\end_layout
+
+\begin_layout Standard
+Nous pouvons également nous aider des courbes de Vischer (fig(x)) pour estimer
+ le débit spécifique maximal qui pourrait se présenté à l'emplacement du
+ projet.
+ Pour cela, nous entrons dans le graphique avec la surface du bassin versant
+ (soit Ea = 208 km
+\begin_inset Formula $^{2}$
+\end_inset
+
+) et en utilisant la courbe du Rhin (car la Brise est un affluent du Rhin)
+ nous pouvon retrouver une valeur de débit par km
+\begin_inset Formula $^{2}$
+\end_inset
+
+que nous multiplions encore par la surface du bassin versant au projet A.
+ Nous obtenons alors un débit spécifique maximal Q = 956,8
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+figure du graphique de Vischer
+\end_layout
+
+\begin_layout Subsection
+Discussion des résultats
+\end_layout
+
+\begin_layout Standard
+En ce qui concerne les valeurs de débits de crues obtenus par analyse statistiqu
+es, il semblerait que le cours d'eau pourrait atteindre au maximum un débit
+ de 79
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+ (valeur obtenues par un interval de confiance à 95%).
+ Cependant, les méthodes empiriques nous donnent des ordres de grandeur
+ beaucoup plus importants de l'ordre de 300 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+ et même 900 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+ pour la méthode de Vischer.
+ Aux vues de ces différences importantes, il est important de comparer l'exactit
+ude des méthodes utilisées.
+ Les méthodes empiriques reposetn uniquement sur des observations en plusieurs
+ endroit et à différents moments.
+ Elles sont également déterminées sur un un cours d''eau particulier qu'il
+ est difficile de transposer pour un autre.
+ L'utilisation des ces méthodes doit donc être consistante avec le cadre
+ de leur application.
+ De plus, l'analyse statistique à été faite sur une période assez large
+ et avec un nombre assez conséquent de données sur le cours d'eau étudié.
+ Ce qui nous permet d'avoir une assez bonne représentation du comportement
+ du cours d'eau.
+ C'est pour ces raisons que nous considérons la méthode statistique la plus
+ appropriée ici pour estimer les débits de crues dans les prochaines années.
+\end_layout
+
+\begin_layout Part*
+Conséquences pour le projet
+\end_layout
+
+\begin_layout Section
+Débit résiduel minimal
+\end_layout
+
+\begin_layout Standard
+Lors de la construction d'un aménagement hydraulique, la loi sur la protection
+ des eaux applique une restriction sur le débit qui pourra être exploité.
+ En effet, de tout le débit d'un cours d'eau seulement une partie de ce
+ débit pourra être exploité et l'autre sera relaché à l'aval du cours de
+ l'aménagement.
+ La section traitant des débits résiduels est l'article 31 alinéa 1 de la
+ LEaux (voir fig (x)).
+ Cet article nous donne la valeur du débit résiduel en fonction du débit
+ observé à 347 jours soit 
+\begin_inset Formula $Q_{347}$
+\end_inset
+
+.
+ Comme nous avons choisis d'utiliser la courbe des débits classés pour la
+ période 1912-2013, nous avons un débit à 347 jour de 
+\begin_inset Formula $Q_{347}=0,774$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+ , soit 
+\begin_inset Formula $Q_{347}=774$
+\end_inset
+
+ 
+\begin_inset Formula $l/s$
+\end_inset
+
+.
+ Selon la LEaux, pour un débit de 500 
+\begin_inset Formula $l/s$
+\end_inset
+
+ on doit laisser un débit résiduel de 280 
+\begin_inset Formula $l/s$
+\end_inset
+
+ et pour chaque tranche de 100 
+\begin_inset Formula $l/s$
+\end_inset
+
+ en plus, on ajoute au débit résiduel 31 
+\begin_inset Formula $l/s$
+\end_inset
+
+.
+ On obtient donc un débit résiduel : 
+\begin_inset Formula $Q_{r}=$
+\end_inset
+
+ 
+\begin_inset Formula $0,280+3*0,031$
+\end_inset
+
+= 
+\begin_inset Formula $0,373$
+\end_inset
+
+ 
+\begin_inset Formula $m^{3}/s.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Débit équipé et puissance de turbinage
+\end_layout
+
+\begin_layout Standard
+Le débit équipé choisi est le débit atteint ou dépassé 60 jours par an.
+ Ce débit correspondra donc à 
+\begin_inset Formula $Q_{60}$
+\end_inset
+
+.
+ Cependant, à partir de la courbe des débits classés, nous ne pouvons pas
+ connaître la valeur exacte à 60 jours, mais nous ne connaissons que les
+ débits exact pour 55 jours et 73 jours.
+ Nous avons donc choisit de faire une interpolation linéaire entre les deux
+ points (55 jour et 73 jour).
+ Nous avons donc obtenu un débit de 
+\begin_inset Formula $Q_{60}=4,38$
+\end_inset
+
+ 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+.
+ Pour obtenir le débit équipé, il faut soustraire à 
+\begin_inset Formula $Q_{60}$
+\end_inset
+
+ le débit résiduel qui ne sera pas turbiné : 
+\begin_inset Formula $Q_{eq}=Q_{60}-Q_{r}=4,01$
+\end_inset
+
+ 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Nous souhaitons maintenant déterminer la puissance de turbinage devant être
+ installée (donc en admettant le débit équipé).
+ Nous savons que le rendement total de la centrale sera de 0,87 et que la
+ chute entre l'amont et l'aval du seuil sera de 
+\begin_inset Formula $5,55$
+\end_inset
+
+
+\begin_inset Formula $m$
+\end_inset
+
+ (le calcul de cette chute sera détaillé dans la partie 
+\begin_inset Quotes eld
+\end_inset
+
+débits turbinés
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Nous déterminons la puissance par la relation suivante : 
+\begin_inset Formula $P$
+\end_inset
+
+= 
+\begin_inset Formula $\eta.\rho.g.Q.\Delta h$
+\end_inset
+
+ = 
+\begin_inset Formula $0,87.1000.9,81.4,38.5,55$
+\end_inset
+
+ = 
+\begin_inset Formula $207470$
+\end_inset
+
+ 
+\begin_inset Formula $W$
+\end_inset
+
+= 
+\begin_inset Formula $207,5$
+\end_inset
+
+ 
+\begin_inset Formula $kW$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Chute d'eau
+\end_layout
+
+\begin_layout Standard
+Un seuil en rivière permet de conserver un niveau d'eau amont constant fixé
+ à 447,6 msm.
+ A partir des données de tarage, nous voulons calculer la chute d'eau selon
+ la hauteur d'eau à l'aval (qui dépend du débit).
+ Pour cela, nous avons soustrait au niveau d'eau constant en amont le niveau
+ d'eau en aval.
+ Nous avons obtenus les résultats suivants :
+\end_layout
+
+\begin_layout Itemize
+tableau + courbe de tarage
+\end_layout
+
+\begin_layout Standard
+Nous avons ensuite voulu tracé la chute en fonction du débit en superposant
+ la courbe de chute nette à celle des débits classés.
+ nous avons obtenus le grapique suivant :
+\end_layout
+
+\begin_layout Itemize
+graphe débits classés + chute nette
+\end_layout
+
+\begin_layout Standard
+Nous pouvons remarquer que pour un fort débit la chute d'eau sera plus faible
+ car la hauteur d'eau en aval sera plus grande.
+\end_layout
+
+\begin_layout Section
+Débits turbinés
+\end_layout
+
+\begin_layout Standard
+Pour une telle installation, on peut turbiner des débits à partir de 40%
+ jusqu'à 120% du débit équipé.
+ De plus, on arrête le turbinage quand le débit est supérieur à 10 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+ , à cause du risque de blocage de la prise d'eau par du bois flottant et
+ du charriage.
+ Nous cherchons ici à calculer la production annuelle moyenne.
+ Nous avons donc procédé par étapes :
+\end_layout
+
+\begin_layout Itemize
+Etape 1 : Calcul du minimum de débit turbiné et du maximum de débit turbiné.
+ 
+\begin_inset Formula $Q_{40\%}=0,4.Q_{eq}=0,4.4,01$
+\end_inset
+
+
+\begin_inset Formula $=$
+\end_inset
+
+ 
+\begin_inset Formula $1,60$
+\end_inset
+
+ 
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+ et 
+\begin_inset Formula $Q_{120\%}=1,2.Q_{eq}=1,2.4,01$
+\end_inset
+
+ 
+\begin_inset Formula $=$
+\end_inset
+
+ 
+\begin_inset Formula $4,81$
+\end_inset
+
+
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Etape 2 : Estimation des jours correspondant à 
+\begin_inset Formula $Q_{40\%}$
+\end_inset
+
+ et 
+\begin_inset Formula $Q_{120\%}$
+\end_inset
+
+.
+ Nous avons comparé la valeur de ces débits avec les débits classés connus
+ et avons déterminé un interval entre ces débits où se trouvent 
+\begin_inset Formula $Q_{40\%}$
+\end_inset
+
+ (un interval) et 
+\begin_inset Formula $Q_{120\%}$
+\end_inset
+
+(un autre interval).
+ Nous avons ensuite interpolé linéairement les bornes de l'interval et ensuite
+ calculé le jour correspondant aux débit à 40% et 120%.
+ Par exemple : nous avons trouvé que 
+\begin_inset Formula $Q_{40\%}$
+\end_inset
+
+ se trouvait entre 
+\begin_inset Formula $Q_{182}$
+\end_inset
+
+ et 
+\begin_inset Formula $Q_{205}$
+\end_inset
+
+.
+ Pour estimer les débits journaliers entre les jours 182 et 205 nous déterminons
+ les paramètres 
+\begin_inset Formula $a=\frac{Q_{205}-Q_{182}}{205-182}$
+\end_inset
+
+ et 
+\begin_inset Formula $b=Q_{205}-a*205$
+\end_inset
+
+ .
+ Grâce à ces paramètres nous pouvons alors estimer le jour correspondant
+ à 
+\begin_inset Formula $Q_{40\%}$
+\end_inset
+
+ : 
+\begin_inset Formula $J_{40\%}=\frac{1}{a}(Q_{40\%}-b)$
+\end_inset
+
+.
+ Nous avons obtenus les résultats suivants : 
+\begin_inset Formula $Q_{40\%}=Q_{198}$
+\end_inset
+
+ et 
+\begin_inset Formula $Q_{120\%}=Q_{43}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Etape 3 : Calcul des débits journaliers.
+ La courbe des débits classés ne nous permet pas d'avoir la valeur exacte
+ du débit journalier pour chacun des jours.
+ Nous devons donc estimer ces débits.
+ Pour cela nous utilisons la méthode du point milieu : c'est-à-dire que
+ nous appliquons à tous les jours inconnus d'un interval entre deux débits
+ connus, la valeur de la moyenne de ces deux débits connus.
+ De cette manière l'intégration sous la courbe des débits nets sera correcte
+ pour calculer la production.
+\end_layout
+
+\begin_layout Itemize
+Etape 4 : Calcul du niveau du cours d'eau en aval du projet.
+ Pour cela nous avons procédé de la même manière qu'à l'étape 2 : par interpolat
+ion linéaire entre deux points connus.
+ Pour chaque débits connus et calculés précédement, nous avons donc pu obtenir
+ les niveau d'eau en aval ainsi que la chute d'eau correpondante (voir tableau
+ (x) en annexe).
+ 
+\end_layout
+
+\begin_layout Itemize
+Etape 5 : Calcul de la production annuelle.
+ La production est l'intégration de la courbe des débits net classés, soit
+ 
+\begin_inset Formula $G=\sum Pj.\Delta t$
+\end_inset
+
+ .
+ On considére ici que 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+ = 1 jour = 86400 secondes.
+ On obtient alors la valeur suivante : 
+\begin_inset Formula $G=$
+\end_inset
+
+ 2617860 MJ.
+\end_layout
+
+\begin_layout Section
+Débits de dimensionnement
+\end_layout
+
+\begin_layout Standard
+Les débits de dimensionnement pour le seuil et les vannes de la prises d'eau
+ ainsi que la protection des berges sont régits par des recommandations
+ de l'OFEV en fonction de l'environnement autour du projet.
+ Dans notre cas, le projet se situe dans un endroit isolé par rapport à
+ une agglomération mais proche d'un bâtiment de stockage et de quelques
+ habitations isolées.
+ Nous définissons donc la limite de dommages à 
+\begin_inset Formula $Q_{50}=4,81$
+\end_inset
+
+
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+ et la limite de danger à 
+\begin_inset Formula $Q_{100}=3,32$
+\end_inset
+
+
+\begin_inset Formula $m^{3}/s$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
